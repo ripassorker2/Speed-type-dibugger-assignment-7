@@ -11,6 +11,39 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+/* ------------------------navar style------------------- */
+.nav-container {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+}
+
+.nav-container .logo {
+  font-size: 50px;
+  color: crimson;
+}
+
+.nav-container .navlist {
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-container .navlist li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: 25px;
+}
+
+.nav-container .navlist li a {
+  text-decoration: none;
+  color: white;
+}
+
+
 .box-container {
   width: 70%;
   margin: 0 auto;
@@ -187,6 +220,46 @@ button {
   top: 0;
 }
 
+/* --------------------blogs------------------- */
+.blog-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: gainsboro;
+}
+
+.blog-container .all-blogs {
+  padding: 30px;
+
+}
+
+.blog-container .blog h6 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.blog-container .blog p {
+  font-size: 23px;
+  padding-bottom: 30px;
+}
+
+
+/* ----------------------foooter------------------ */
+.footer-container {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-container div {
+  font-size: 25px;
+  color: white;
+}
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;
@@ -201,5 +274,18 @@ button {
 
   .card {
     flex-direction: column;
+  }
+
+  .nav-container {
+    padding: 20px 40px;
+  }
+
+  .nav-container .logo {
+    font-size: 35px;
+  }
+
+  .nav-container li {
+    font-size: 15px;
+    margin: 0 10px;
   }
 }
