@@ -23,6 +23,7 @@ body {
 
 .nav-container .logo {
   font-size: 50px;
+  font-weight: bold;
   color: crimson;
 }
 
@@ -66,7 +67,9 @@ body {
 }
 
 #display {
-  height: 100px;
+  /* height: 100px; */
+  min-height: 100px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
